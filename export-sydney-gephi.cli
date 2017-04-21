@@ -1,1 +1,1 @@
-export-graphml -t -o out.graphml match (n) return n
+export-graphml -t -o out.graphml match (n)-[r]->(m) return n,r,m
